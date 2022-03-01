@@ -68,9 +68,9 @@ function SignUp() {
             Forgot Password
           </Link>
 
-          <div className='signInBar'>
-            <p className='signInText'>Sign In</p>
-            <button className='signInButton'>
+          <div className='signUpBar'>
+            <p className='signUpText'>Sign Up</p>
+            <button className='signUpButton'>
               <ArrowRightIcon fill='#fff' width='34px' height='34px' />
             </button>
           </div>
@@ -78,8 +78,8 @@ function SignUp() {
 
         {/* Google OAuth */}
 
-        <Link to='sign-up' className='registerLink'>
-          Sign Up Instead
+        <Link to='/sign-in' className='registerLink'>
+          Sign In Instead
         </Link>
       </div>
     </>
