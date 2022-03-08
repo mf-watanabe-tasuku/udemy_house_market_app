@@ -68,6 +68,7 @@ function SignIn() {
               id='password'
               value={password}
               onChange={onChange}
+              autoComplete='true'
             />
 
             <img
