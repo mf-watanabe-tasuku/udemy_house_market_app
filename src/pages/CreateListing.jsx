@@ -64,11 +64,11 @@ function CreateListing() {
     let boolean = null;
 
     if (e.target.value === 'true') {
-      boolean = 'true';
+      boolean = true;
     }
 
     if (e.target.value === 'false') {
-      boolean = 'false';
+      boolean = false;
     }
 
     // Files
@@ -89,6 +89,7 @@ function CreateListing() {
 
   const onSubmit = (e) => {
     e.preventDefault();
+    console.log(formData);
   };
 
   if (loading) {
